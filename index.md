@@ -1,37 +1,97 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Serious-Lycanthrope/Projeto-gridbucks/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Serious-Lycanthrope/Projeto-gridbucks/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="assets/star.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="line"></div>
+        <div class="container header-sections">
+            <div class="star-img">
+                <a href=""><img src="assets/images/logo.png"></a>
+            </div>
+            <div class="header-search-menu">
+                <form class="search">
+                    <input type="text" name="search" placeholder="Search">
+                    <button>
+                        <img src="assets/images/loupe.png">
+                    </button>
+                </form>
+                <div class="lupa">
+                    <button>
+                        <img src="assets/images/loupe.png">
+                    </button>
+                </div>
+                <div class="menu-icon">
+                    <img src="assets/images/menu.png">
+                </div>
+                <nav class="menu">
+                    ...
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="container">
+            <h1>Starbucks&reg;<br/>Happy Hour</h1>
+            <span>Well meet you in your inbox. Drink deals are on their way.</span>
+            <div class="banner-images">
+                <img src="assets/images/c1.jpg">
+                <img src="assets/images/c2.jpg">
+                <img src="assets/images/c3.jpg">
+            </div>
+        </div>
+    </section>
+    <section class="area1">
+        <div class="area1-content">
+            <div class="area-line"></div>
+            <div class="area-title">Four Drink, A Milion<br/>Reasons</div>
+            <div class="area-quote"><em>"Just love yourself and you're set."</em> - Lad Gag</div>
+            <div class="area-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices fermentum mi, sed tempor elit laoreet a. In mollis nunc quis massa rutrum malesuada. In accumsan leo vitae lectus tempor tincidunt. Maecenas cursus sodales sapien nec placerat. Vestibulum dolor risus, fringilla et tincidunt at, eleifend in est. Suspendisse mattis tristique aliquam. Quisque tincidunt consectetur libero quis sollicitudin. Ut sed eros nec diam finibus fringilla. Proin vel urna mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet aliquet lorem sit amet sollicitudin.</div>
+            <button class="area-button">learn more</button>
+        </div>
+        <div class="area1-imglo"></div>
+        <div class="area1-imghi"></div>
+    </section>
+    <section class="area2">
+        <div class="area2-content">
+            <div class="area-line"></div>
+            <div class="area-title">Introducing Vanilla Sweet<br/>Cream Cold Brew-Sweet,<br/>Creamy, Cold, Bold.</div>
+            <div class="area-text">Just before serving, our steeped custom blend Starbucks&reg; Cold Brew Coffe is topped with a delicate float of house-made vanilla sweet cream that cascades throughout the cup.</div>
+            <button class="area-button">learn more</button>
+        </div>
+        <div class="area2-imglo"></div>
+        <div class="area2-imghi"></div>
+    </section>
+    <section class="area3">
+        <div class="area3-content">
+            <div class="area-line"></div>
+            <div class="area-title">The New Ultra Caramel<br/>Frappuccino Is Here!</div>
+            <div class="area-text">Congrats on doing that thing! this calls for caramel. Lots of it. With cold brew whipped cream. The new Ultra Caramel Frappuccino is here!</div>
+            <button class="area-button">learn more</button>
+        </div>
+        <div class="area3-imgle"></div>
+    </section>
+    <section class="area4">
+        <div class="area4-content">
+            <div class="area-line"></div>
+            <div class="area-title">Kindness Starts<br/>With A Cup</div>
+            <div class="area-text">Introducing the Cups of Kindness collection: four very special drinks as delicious and refreshing as they are beautiful. Two new creation. Matcha Lemonade and Violet Drink, will join Pink Drink and Ombré Pink Drink as instant summer favorites.</div>
+            <button class="area-button">learn more</button>
+        </div>
+        <div class="area4-imgle"></div>
+    </section>
+    <section class="area5"></section>
+    <footer class="">
+        Criado por Dan Aug&copy;<br/>
+        Layout credits to NicePage
+    </footer>
+</body>
+</html>`
